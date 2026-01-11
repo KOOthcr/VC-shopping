@@ -59,7 +59,7 @@ export function Header() {
 
         {/* Center Logo */}
         <Link href="/" className="absolute left-1/2 -translate-x-1/2">
-          <h1 className="text-2xl font-bold tracking-widest">CIDER</h1>
+          <h1 className="text-2xl font-bold tracking-widest">KOO</h1>
         </Link>
 
         {/* Right Section */}
