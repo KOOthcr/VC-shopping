@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { Menu, Search, Globe, HelpCircle, User, Heart, ShoppingBag, X } from "lucide-react"
+import { Menu, Search, Globe, HelpCircle, User, Heart, ShoppingBag, X, Shield } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -109,6 +109,11 @@ export function Header() {
           <Button variant="ghost" size="icon" className="hidden md:flex">
             <HelpCircle className="h-5 w-5" />
           </Button>
+          <Link href="/admin">
+            <Button variant="ghost" size="icon" className="hidden md:flex">
+              <Shield className="h-5 w-5" />
+            </Button>
+          </Link>
           <Link href="/orders">
             <Button variant="ghost" size="icon">
               <User className="h-5 w-5" />
